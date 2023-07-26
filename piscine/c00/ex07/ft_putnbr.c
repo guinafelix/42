@@ -5,7 +5,7 @@ void ft_putchar(char c)
 	write(1, &c, 1);
 }
 
-void ft_nbr(int nb)
+void ft_putnbr(int nb)
 {
 	if (nb < 0)
 	{
@@ -17,9 +17,4 @@ void ft_nbr(int nb)
 		ft_nbr(nb / 10);
 	}
 	ft_putchar(nb % 10 + '0');
-}
-
-int main()
-{
-	ft_nbr(690);	
 }

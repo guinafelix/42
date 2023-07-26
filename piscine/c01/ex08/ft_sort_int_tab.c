@@ -17,9 +17,3 @@ void ft_sort_int_tab(int *tab, int size)
 		i++;
 	}
 }
-
-int main(void)
-{
-	int a[] = {5, 4, 3, 2, 1};
-	ft_sort_int_tab(a, 5);
-}

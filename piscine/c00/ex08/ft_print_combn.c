@@ -56,8 +56,3 @@ void ft_print_combn(int n)
 		ft_print_array(value, n, max_value[0]);
 	}	
 }
-
-int main()
-{
-	ft_print_combn(2);
-}

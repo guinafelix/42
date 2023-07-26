@@ -12,10 +12,3 @@ char *ft_strlowcase(char *str)
 	}
 	return str;
 }
-
-int main()
-{
-	char str[] = "HELLO";
-	printf("%s", ft_strlowcase(str));
-
-}

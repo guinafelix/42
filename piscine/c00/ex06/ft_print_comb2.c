@@ -17,7 +17,7 @@ void ft_print_num(char* num)
 	ft_putchar(num[1]);
 }
 
-int main ()
+void ft_print_comb2 ()
 {
 	char num[2];
 	num[0] = '0';
