@@ -55,7 +55,6 @@ int ft_atoi_base(char *str, char *base)
 	int q_base = ft_strlen(base);
         int result = 0;
 	int position = ft_strlen(str);
-	int sign_counter = 0;
         int sign = 1;
         while (str[c])
         {
