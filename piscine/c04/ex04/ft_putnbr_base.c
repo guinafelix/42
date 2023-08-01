@@ -1,5 +1,5 @@
 #include <unistd.h>
-int ft_strlen(char *str)
+int ft_strlen(char *str)++=
 {
 	int c = 0;
 	while(str[c])
@@ -24,7 +24,7 @@ int ft_check_base_input(char *base)
 		if (base[c] == '+' || base[c] == '-')
 			return 0;
 		j = c + 1;
-		while(base[c+j])
+		while(base[j])
 		{
 			if(base[c] == base[c+j])
 				return 0;
@@ -32,7 +32,7 @@ int ft_check_base_input(char *base)
 		}
 		c++;
 	}
-	if (c >= 1)
+	if (c <= 1)
 		return 0;
 	return 1;
 }
