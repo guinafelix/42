@@ -1,0 +1,149 @@
+body {
+    background-color: #4c444c;
+    align-items: center;
+}
+
+.header {
+    background-color: #919191;
+    display: flex;
+    justify-content: space-between;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    padding: 0 5px;
+    border-radius: 15px;
+    margin: 0 5cm;
+    box-shadow: 10px 10px 10px black;
+}
+
+.content {
+    display: flex;
+    padding: 10 5px;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 0 7cm;
+    margin-top: 30px;
+    grid-template-columns: 1fr 2fr 1fr;
+    position: relative;
+}
+
+.content-img {
+    padding: 10px;
+    border-radius: 15px;
+    background-color: #919191;
+    box-shadow: 10px 10px 10px black;
+    position: relative;
+}
+
+.content-img img {
+    max-width: 100%;
+    max-height: auto
+}
+
+.content-buttons img[title="oiel"] {
+    border: 5px solid red;
+    border-radius: 10px;
+}
+
+.content-buttons {
+    background-color: #919191;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    align-items: center;
+    width: 120px;
+    height: 405px;
+    border-radius: 10px;
+    padding: 15px;
+    justify-content: flex-start;
+    box-shadow: 10px 10px 10px black;
+}
+
+.content-buttons img {
+    background-color: #919191;
+    align-items: center;
+    max-width: 80px;
+}
+
+.header img {
+    padding: 0 5px;
+}
+
+.header-buttons {
+    display: grid;
+    gap: 150px;
+}
+
+.header-buttons img {
+    max-height: 40px;
+}
+
+.loupe {
+    display: flex;
+}
+
+#main-img {
+    width: 1000px;
+    height: 562px;
+}
+
+#book, #towel {
+    width: 70px;
+    margin-top: 2px;
+}
+
+.brick {
+    height: 70px;
+    width: 120px;
+    background-image: url(resources/brick.jpg);
+    background-repeat: repeat;
+}
+
+.form {
+    width: 520px;
+    height: 150px;
+    background-color: #8cfc8c;
+    display: block;
+    font-family: sans-serif;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px black;
+    position: absolute;
+    bottom: 30px;
+    left: 250px; 
+}
+
+.form p {
+    display: inline;
+}
+
+.form h2 {
+    display: inline;
+    font-family: Georgia, serif;
+    font-size: 32px;
+    font-weight: lighter;
+}
+
+.form input[type=text] {
+    width: 380px;
+    height: 14px;
+    margin-left: 13px;
+    margin-top: 3px;
+    border: 2px solid;
+    border-bottom-color: #eeeeee;
+    border-right-color: #eeeeee;
+    border-left-color: #9d969d;
+    border-top-color: #9d969d;
+  }
+  
+  .form input[type=submit] {
+    width: 80px;
+    height: 20px;
+    margin-left: 4px;
+    margin-bottom: 0;
+    border-radius: 1px;
+    text-align: center;
+    font-size: 13px;
+    letter-spacing: 0.25px;
+    background: linear-gradient(#f0f0f0, #dcdcdc);
+    border: solid #9d969d 1px;
+  }

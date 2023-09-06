@@ -1,0 +1,47 @@
+body {
+    background-color: pink;
+}
+
+.title {
+    text-align: center;
+    font-size: 36px;
+    color: #ffffff;
+}
+.shop-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.shop {
+    width: 45%;
+    margin: 10px;
+}
+
+.shop-link {
+    display: block;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+}
+
+.shop-item {
+    text-align: center;
+    color: white;
+    text-decoration: none;
+}
+
+.shop-name {
+    margin-top: 10px;
+}
+
+.separator {
+    border: 1px solid white;
+    margin: 20px 0; /* Adjust the margin as needed */
+}
+
+.copyright {
+    text-align: right;
+    font-style: italic;
+    font-family: monospace;
+    color: white;
+}
