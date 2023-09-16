@@ -1,0 +1,14 @@
+<- Vertex ----------------------------------------------------------------------
+The vertex class represents space 3d vertexes.
+It has 3 coordinates, an homogenous parameter and a color (from class Color).
+
+You can create an instance with the 3 parameters x,y and z:
+new Vertex(array('x' => 1.0, 'y' => 0.0, 'z' => 0.0 ));
+
+'w', the homogenous parameter, and 'color', the instance of Color, can be added in the
+constructor as well:
+new Vertex(array([x, y,z], 'w' => 2.0, 'color' => <instanceof Color>));
+default values are respectivly 1.0 and white.
+
+All atributes are private, so you will have to use the getters and setters to access them.
+---------------------------------------------------------------------- Vertex ->
